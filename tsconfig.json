@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "declaration":true,
+      "declarationDir":"./types",
+      "rootDir":"./src",
+      "outDir": "lib",
+      "sourceMap": false,
+      "types": ["node"],
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "removeComments":true,
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+          "node_modules/*",
+          "src/*"
+        ]
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "lib"
+    ],
+    "include": [
+      "src/**/*",
+      "src/*"
+    ]
+  }
