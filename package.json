@@ -1,8 +1,9 @@
 {
   "name": "@ztwx/cm-zip",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.5",
+  "description": "node zip compress and uncompress",
+  "main": "./lib/index.js",
+  "types":"./types/index.d.ts",
   "scripts": {
     "test": "tsc --declaration src/index.ts",
     "compiler": "tsc --project tsconfig.json",
@@ -16,11 +17,15 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^3.0.2",
-    "jszip": "^3.2.2",
-    "typescript": "^3.6.3"
+    "jszip": "^3.2.2"
   },
   "devDependencies": {
+    "typescript": "^3.6.3",
     "@types/node": "^12.7.8"
+  },
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/zhantewei2/cm-zip.git"
   },
   "keywords": [
     "zip",
